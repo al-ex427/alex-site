@@ -1,6 +1,5 @@
 import styles from "./page.module.scss";
 import background_img from '../../public/backgrounds/Tahoe-Light.jpg'
-import { url } from "inspector";
 export default function Home() {
   return (
     <>
