@@ -4,7 +4,7 @@ import { Montserrat } from "next/font/google";
 
 export const metadata: Metadata = {
   title: "alex's site",
-  description: "a shitbox website i made",
+  description: "a shitass website i made",
 };
 
 const montserrat =  Montserrat({
@@ -22,6 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${montserrat.className}`}>
+      <link rel="icon" type="image/svg+xml" href="/assets/icons/alex.svg" />
       <body className={``}>
         {children}
       </body>

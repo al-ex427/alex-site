@@ -1,38 +1,4 @@
 
 
-.panel {
-  transition: 250ms;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 500px;
-  height: 650px;
 
-  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.525);
-  outline: 1px solid rgba(0, 0, 0, 0.055);
-  background-color: rgb(255, 255, 255);
-  font-family: var(--font-montserrat);
-  font-weight: bold;
-  border-radius: 8px;
-  padding: 6px;
-  text-align: center;
 
-  a {
-    color: black;
-    text-decoration: dotted underline;
-    font-weight: 600;
-  }
-}
-
-@media (max-width: 550px) {
-  .panel {
-    width: 90%;
-  }
-}
-
-@media (max-height: 715px) {
-  .panel {
-    height: 91.5%;
-  }
-}

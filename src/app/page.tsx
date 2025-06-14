@@ -1,5 +1,5 @@
 import styles from "./page.module.scss";
-import background_img from '../../public/backgrounds/Tahoe-Light.jpg'
+import background_img from '../../public/assets/backgrounds/Tahoe-Light.jpg'
 export default function Home() {
   return (
     <>
@@ -10,7 +10,7 @@ export default function Home() {
       backgroundSize: 'cover', 
       backgroundPosition: 'center',
       }}>
-      <div className={`panel ${styles.panel}`}>
+      <div className={`panel`}>
         <p style={{fontSize: '24px', fontWeight: '600'}}>This website is not finished <strong>yet!</strong></p>
         <p style={{fontSize: '18px', fontWeight: '500'}}>In the meanwhile, you can do these things</p>
         <ul>
@@ -32,6 +32,6 @@ export default function Home() {
     <div>
       <div className={`panel ${styles.panel}`} style={{height: '250px'}}>
         <p style={{fontSize: '18px', fontWeight: '500'}}>Are you sure you want to exit this website?</p>
-      </div>
+      </div>  
     </div>
     */
