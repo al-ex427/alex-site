@@ -22,11 +22,16 @@ export default function Home() {
         </div>
     </div>
 
+
+    </>
+  );
+}
+
+
+/*
     <div>
       <div className={`panel ${styles.panel}`} style={{height: '250px'}}>
         <p style={{fontSize: '18px', fontWeight: '500'}}>Are you sure you want to exit this website?</p>
       </div>
     </div>
-    </>
-  );
-}
+    */
