@@ -43,7 +43,7 @@ $ease-in-out-back:  cubic-bezier( 0.680, -0.550,  0.265,  1.550 );
 /* ACTUALLY START THE STYLING */
 
 .panel {
-  transition: cubic-bezier( 0.680, -0.550,  0.265,  1.550 ) 0.35s;
+  transition: $ease-in-out-back 0.35s;
   position: absolute;
   top: 50%;
   left: 50%;
