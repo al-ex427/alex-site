@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.scss";
 import { Montserrat } from "next/font/google";
+import AppFooter from './components/AppFooter';
 
 export const metadata: Metadata = {
   title: "alex's site",
@@ -25,6 +26,7 @@ export default function RootLayout({
       <link rel="icon" type="image/svg+xml" href="/assets/icons/alex.svg" />
       <body className={``}>
         {children}
+        <AppFooter/>
       </body>
     </html>
   );

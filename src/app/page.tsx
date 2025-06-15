@@ -1,4 +1,5 @@
 import background_img from '../../public/assets/backgrounds/Tahoe-Light.jpg'
+
 export default function Home() {
   return (
     <>
@@ -21,6 +22,7 @@ export default function Home() {
         </div>
     </div>
 
+   
 
     </>
   );
