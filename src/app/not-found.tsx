@@ -11,8 +11,8 @@ export default function NotFound() {
       backgroundPosition: 'center',
       }}>
       <div className={`panel warning  `} >
-        <p style={{fontSize: '32px', fontWeight: '800'}}>404</p>
-        <p style={{fontSize: '18px', fontWeight: '500'}}>The requested page has not been found</p>
+        <p style={{fontSize: '32px', fontWeight: '800', color: 'white'}}>404</p>
+        <p style={{fontSize: '18px', fontWeight: '500', color: 'white'}}>The requested page has not been found</p>
       </div>
     </div>
 
