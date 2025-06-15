@@ -1,4 +1,3 @@
-import styles from "./page.module.scss";
 import background_img from '../../public/assets/backgrounds/Tahoe-Light.jpg'
 export default function Home() {
   return (
