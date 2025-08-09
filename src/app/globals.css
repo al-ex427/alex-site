@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+
+
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+}
+
+
+body {
+  background: black;
+  color: white;
+  font-family: "Times New Roman", sans-serif;
+}
+
+
+.page {
+  height: 100dvh;
+  min-height: 100dvh;
+}

@@ -1,20 +1,14 @@
 import type { Metadata } from "next";
-import "./globals.scss";
-import { Montserrat } from "next/font/google";
-import AppFooter from './components/AppFooter';
+import "./globals.css"
+import Navbar from "@/components/navbar";
+
+
+
+
 
 export const metadata: Metadata = {
-  title: "alex's site",
-  description: "a shitass website i made",
+  title: "Create Next App",
 };
-
-const montserrat =  Montserrat({
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  subsets: ["latin"],
-  style: ["normal", "italic"],
-  display: "swap",
-
-});
 
 export default function RootLayout({
   children,
@@ -22,11 +16,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${montserrat.className}`}>
-      <link rel="icon" type="image/svg+xml" href="/assets/icons/alex.svg" />
-      <body className={``}>
+    <html lang="en">
+      <body
+        className={`antialiased`}
+      >
+        <Navbar/>
         {children}
-        <AppFooter/>
+        
       </body>
     </html>
   );
