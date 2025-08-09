@@ -7,7 +7,7 @@ import Navbar from "@/components/navbar";
 
 
 export const metadata: Metadata = {
-  title: "Create Next App",
+  title: "al_ex427's page",
 };
 
 export default function RootLayout({
