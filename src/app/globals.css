@@ -1,6 +1,12 @@
 @import "tailwindcss";
 
 
+@theme {
+  --color-discord-ash: #323339;
+  --color-discord-dark: #1D1D21;
+  --color-discord-onyx: #000;
+}
+
 
 
 @layer base {
