@@ -2,8 +2,34 @@ import type { Metadata } from "next";
 import "./globals.css"
 
 import Navbar from "@/components/navbar";
-
 import {Lato} from "next/font/google";
+import localFont from "next/font/local";
+
+const gg_sans = localFont({
+  src: [
+    {
+      path: "../../public/assets/fonts/ggsans_Regular.woff",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../../public/assets/fonts/ggsans_Medium.woff",
+      weight: "600",
+      style: "medium",
+    },
+    {
+      path: "../../public/assets/fonts/ggsans_Semibold.woff",
+      weight: "800",
+      style: "semibold",
+    },
+    {
+      path: "../../public/assets/fonts/ggsans_Bold.woff",
+      weight: "900",
+      style: "bold",
+    },
+  ],
+  variable: "--font-ggsans",
+});
 
 const lato = Lato({
   subsets: ["latin"],
@@ -24,7 +50,7 @@ export default function RootLayout({
     <html lang="en">
       
       <body
-        className={`${lato.variable} antialiased`}
+        className={`${gg_sans.variable} ${lato.variable} antialiased`}
       >
         <Navbar/>
         {children}
