@@ -1,5 +1,4 @@
 import AppIcon from "@/components/AppIcon";
-import DiscordUserWidget from "@/components/DiscordUserWidget";
 
 export default function Portofolio() {
     return (
