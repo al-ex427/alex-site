@@ -6,7 +6,7 @@ export default function Portofolio() {
     return (
         <>
         <div className="page gap-4 overflow-auto">
-            <section id="aboutme" className="flex p-4 flex-col items-center gap-1">
+            <section id="aboutme about" className="flex p-4 flex-col items-center gap-1">
                 <h1 className="text-4xl font-bold">About me</h1>
                 <p className="text-2xl">hey, im al_ex427. a UI Designer<br/>i do random ass stuff in roblox, unity, etc.<br/>im intresed in tech too (eg. rooting)</p>
             </section>
@@ -17,10 +17,10 @@ export default function Portofolio() {
             <section id="programs" className="flex p-4 flex-col items-center gap-2">
                 <h1 className="text-4xl font-bold">Programs I work in</h1>
                 <div className="flex gap-4">
-                    <AppIcon iconSrc="/assets/images/programs/Figma.svg"/>
-                    <AppIcon iconSrc="/assets/images/programs/adobe/Adobe_Photoshop.svg"/>
-                    <AppIcon iconSrc="/assets/images/programs/adobe/Adobe_Ilustrator.svg"/>
-                    <AppIcon iconSrc="/assets/images/programs/engines/RobloxStudio_2025.svg"/>
+                    <AppIcon iconUrl="https://www.figma.com/" iconSrc="/assets/images/programs/Figma.svg"/>
+                    <AppIcon iconUrl="https://www.adobe.com/products/photoshop.html" iconSrc="/assets/images/programs/adobe/Adobe_Photoshop.svg"/>
+                    <AppIcon iconUrl="https://www.adobe.com/products/illustrator.html" iconSrc="/assets/images/programs/adobe/Adobe_Ilustrator.svg"/>
+                    <AppIcon iconUrl="https://create.roblox.com/" iconSrc="/assets/images/programs/engines/RobloxStudio_2025.svg"/>
                 </div>
             </section>
             <section id="commisions" className="flex p-4 flex-col items-center gap-2">
