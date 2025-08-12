@@ -1,6 +1,5 @@
 import AppIcon from "@/components/AppIcon";
 import DiscordUserWidget from "@/components/DiscordUserWidget";
-import Image from "next/image";
 
 export default function Portofolio() {
     return (
@@ -26,7 +25,7 @@ export default function Portofolio() {
             <section id="commisions" className="flex p-4 flex-col items-center gap-2">
                 <h1 className="text-4xl font-bold">Commisions</h1>
                 <p className="text-2xl">You can commision me on <a className="underline" href="https://discord.com">Discord!</a></p>
-                <DiscordUserWidget userID={1156977795575070873} />
+             {/*   <DiscordUserWidget userID={1156977795575070873} /> */}
                 
             </section>
             <section id="donations" className="flex p-4 flex-col items-center">
