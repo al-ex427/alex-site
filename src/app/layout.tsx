@@ -39,6 +39,7 @@ const lato = Lato({
 
 export const metadata: Metadata = {
   title: "al_ex427's page",
+  description: "alex's site"
 };
 
 export default function RootLayout({
