@@ -1,14 +1,16 @@
-import Link from "next/link";
-import { FaBars } from "react-icons/fa6";
+
+import { FaBars, FaHouse, FaMoneyBill, FaSuitcase } from "react-icons/fa6";
+import { MdMessage } from "react-icons/md";
+import NavbarLink from "./NavbarLink";
 
 export default function Navbar() {
     return (
         <div className="fixed flex top-0 z-5 w-[100%] border-b-1 border-b-white/25 bg-black/20 h-[64px] backdrop-blur-lg">
-        <div className="hidden topbar:flex h-[100%] w-[100%] gap-16 text-[20px] font-400 flex-row justify-center items-center">
-            <Link href="/">Home</Link>
-            <a href="/dashboard">Dashboard</a>
-            <Link href="/portofolio">Portofolio</Link>
-            <Link href="/contact">Contact me</Link>
+        <div className="hidden topbar:flex h-[100%] w-[100%] gap-16 text-[20px] flex-row justify-center items-center">
+            <NavbarLink url="/"><FaHouse/>Home</NavbarLink>
+            <NavbarLink  url="/commisions"><FaMoneyBill/>Commisions</NavbarLink>
+            <NavbarLink  url="/portofolio"><FaSuitcase/>Portofolio</NavbarLink>
+            <NavbarLink  url="/contact"><MdMessage/>Contact me</NavbarLink>
         </div>
 
         <div className="topbar:hidden flex h-[100%] w-[100%] gap-16 text-[20px] font-400 flex-row justify-center items-center">
