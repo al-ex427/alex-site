@@ -1,3 +1,5 @@
+import DiscordServerWidget from "@/components/widgets/DiscordServerWidget";
+
 
 export default function Home() {
   return (
@@ -11,7 +13,7 @@ export default function Home() {
       </div>
       
       <div className="h-full flex flex-col justify-center content-center">
-        <iframe className="" src="https://discord.com/widget?id=1373259502555631669&theme=dark" width="350" height="500" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        <DiscordServerWidget></DiscordServerWidget>
       </div>
       
        

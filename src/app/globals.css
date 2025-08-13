@@ -46,6 +46,11 @@ button:hover, a:hover{
   cursor: url("/assets/images/cursors/macos/handpointing.svg"), pointer;
 }
 
+.portofolioCategory {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
 
 .page {
   width: 100%;

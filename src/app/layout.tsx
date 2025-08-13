@@ -53,8 +53,9 @@ export default function RootLayout({
       <body
         className={`${gg_sans.variable} ${lato.variable} antialiased`}
       >
-       <Navbar/> 
-        {children}
+          <Navbar/> 
+          {children}
+       
         
       </body>
     </html>
