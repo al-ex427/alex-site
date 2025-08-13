@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Not Found!11 LOL",
+  description: "Page not found"
 };
 
 export default function NotFound() {

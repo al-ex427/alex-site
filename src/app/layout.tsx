@@ -54,7 +54,10 @@ export default function RootLayout({
         className={`${gg_sans.variable} ${lato.variable} antialiased`}
       >
           <Navbar/> 
-          {children}
+          <main className="my-[64px]">
+            {children}
+          </main>
+              
        
         
       </body>

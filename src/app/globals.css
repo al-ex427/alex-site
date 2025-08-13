@@ -5,6 +5,8 @@
   --color-discord-ash: #323339;
   --color-discord-dark: #1D1D21;
   --color-discord-onyx: #000;
+
+  --breakpoint-topbar: 600px;
 }
 
 
@@ -19,7 +21,7 @@
 }
 
 
-img, svg, image {
+img, svg, image, Image {
   -webkit-user-drag: none;
   user-select: none;
   -moz-user-select: none;
@@ -33,14 +35,16 @@ body {
   font-family: "Lato", sans-serif;
   width: 100%;
   min-width: 100%;
-  height: 100vh;
-  min-height: 100vh;
+  min-height: 100%;
+  height: 100%;
 
 
   cursor: url("/assets/images/cursors/macos/default.svg"), default;
  
  
 }
+
+
 
 button:hover, a:hover{
   cursor: url("/assets/images/cursors/macos/handpointing.svg"), pointer;
