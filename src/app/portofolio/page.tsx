@@ -25,7 +25,7 @@ export default function Portofolio() {
             <section id="commisions" className="portofolioCategory p-4 items-center gap-2">
                 <h1 className="text-4xl font-bold">Commisions</h1>
                 <p className="text-2xl">You can commision me on <a className="underline" href="https://discord.com/users/1156977795575070873">Discord!</a></p>
-                <DiscordUserWidget userID={1156977795575070873} />
+             {/*}  <DiscordUserWidget userID={1156977795575070873} /> {*/}
                 
             </section>
             <section id="donations" className="portofolioCategory p-4 items-center">
