@@ -1,4 +1,5 @@
 import AppIcon from "@/components/AppIcon";
+import Link from "next/link";
 /*import DiscordUserWidget from "@/components/widgets/DiscordUserWidget";*/
 
 export default function Portofolio() {
@@ -23,6 +24,10 @@ export default function Portofolio() {
                     <AppIcon iconUrl="https://www.adobe.com/products/illustrator.html" iconSrc="/assets/images/programs/adobe/Adobe_Ilustrator.svg"/>
                     <AppIcon iconUrl="https://create.roblox.com/" iconSrc="/assets/images/programs/engines/RobloxStudio_2025.svg"/>
                 </div>
+            </section>
+            <section id="commisions" className="portofolioCategory p-4 items-center">
+                <h1 className="text-4xl font-bold">Commisions</h1>
+                <p className="text-2xl">View <Link className="underline" href="/commisions">Commisions Page</Link> for info</p>
             </section>
             <section id="donations" className="portofolioCategory p-4 items-center">
                 <h1 className="text-4xl font-bold">Donations</h1>
