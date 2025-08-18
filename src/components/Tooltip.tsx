@@ -7,9 +7,16 @@ interface TooltipProps {
 
 export default function Tooltip(props: TooltipProps) {
     return (
-        <div className={`absolute text-lg ${props.hovering ? `opacity-100 inline ` : `opacity-0 hidden`} transition-[150ms] w-[250px] bottom-[-24px]`}>
-            <span>{props.description}</span>
-        </div>
+        <>
+        {props.description && (
+                <div className={`z-1 flex flex-col justify-center content-center absolute text-lg bg-white/0.5 backdrop-blur-lg px-8 h-[32px] rounded-lg
+                ${props.hovering ? `opacity-100 pointer-events-auto` : `opacity-0 pointer-events-none`} text-nowrap transition-[150ms] bottom-[-24px]`}>
+                        <span className="text-[16px] w-full h-auto">{props.description}</span>
+                </div>
+        )}
+        
+        </>
+       
     )
     
 }
