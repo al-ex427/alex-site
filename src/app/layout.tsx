@@ -4,6 +4,7 @@ import "./globals.css"
 import Navbar from "@/components/navbar/navbar";
 import {Lato} from "next/font/google";
 import localFont from "next/font/local";
+import WebFooter from "@/components/Footer";
 
 const gg_sans = localFont({
   src: [
@@ -54,9 +55,10 @@ export default function RootLayout({
         className={`${gg_sans.variable} ${lato.variable} antialiased`}
       >
           <Navbar/> 
-          <main className="my-[64px]">
+          <main className="mt-[64px] w-full h-screen">
             {children}
           </main>
+          <WebFooter/>
               
        
         

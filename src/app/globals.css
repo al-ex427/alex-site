@@ -5,8 +5,13 @@
   --color-discord-ash: #323339;
   --color-discord-dark: #1D1D21;
   --color-discord-onyx: #000;
+  
+  --color-trueblack-50: oklch(0.8853 0 360);
+  --color-trueblack-900: oklch(0.152 0 360);
+  --color-trueblack-950: oklch(0.052 0 360);
 
   --breakpoint-topbar: 750px;
+  --breakpoint-portofolio-icons: 350px;
 }
 
 
@@ -17,7 +22,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-  }
+  } 
 }
 
 
