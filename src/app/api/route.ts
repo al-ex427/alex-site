@@ -1,4 +1,4 @@
-import { GetGitInfo } from "@/GitManager"
+import GetGitInfo from "@/GitManager"
 import { NextRequest } from "next/server"
 
 
