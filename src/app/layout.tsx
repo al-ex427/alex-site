@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css"
 
-import Navbar from "@/components/navbar/Navbar";
+
 import {Lato} from "next/font/google";
 import localFont from "next/font/local";
 import WebFooter from "@/components/Footer";
+import Navbar from "@/components/navbar/Navbar";
 
 const gg_sans = localFont({
   src: [
