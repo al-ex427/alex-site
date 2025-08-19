@@ -11,6 +11,8 @@ export default function Portofolio() {
                 <p className="text-2xl">Hey! My name is Alex; im also known as al_ex427. </p>
                 <p className="text-2xl">Im a UI Designer from Romania</p>
                 <p className="text-2xl">I do stuff in Roblox, Unity</p>
+                <p className="text-2xl">I know C#, a bit of LUAU and most of Haxe </p>
+                
             </section>
             <section id="stuff" className="portofolioCategory p-4 items-center gap-1">
                 <h1 className="text-4xl font-bold">Stuff i can make/made before</h1>
