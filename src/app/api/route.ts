@@ -1,5 +1,4 @@
 import GetGitInfo from "@/GitManager"
-import { NextRequest } from "next/server"
 
 
 

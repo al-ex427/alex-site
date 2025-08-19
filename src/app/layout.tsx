@@ -5,7 +5,7 @@ import "./globals.css"
 import {Lato} from "next/font/google";
 import localFont from "next/font/local";
 import WebFooter from "@/components/Footer";
-import Navbar from "@/components/navbar/Navbar";
+import Navbar from "@/components/NavbarStuff/Navbar";
 
 const gg_sans = localFont({
   src: [
