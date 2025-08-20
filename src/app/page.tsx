@@ -7,7 +7,7 @@ export default function Home() {
     <div className="page">
       <div className="w-full bg-cover bg-center bg-no-repeat bg-local  h-128 bg-[url(/assets/images/backgrounds/space_02.jpg)]">
         <div className="flex flex-col justify-center content-center backdrop-blur-2xl h-full w-full">
-            <h1 className="text-6xl font-black">Welcome to my Website<br />[NOTICE: THIS WEBSITE IS IN BETA]</h1>
+            <h1 className="text-6xl font-black">Welcome to my Website<br />THIS SITE IS NOT FINISHED! DONT EXPECT EVERYTHING TO WORK/BE FINISHED</h1>
         </div>
       </div>
       
