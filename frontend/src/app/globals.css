@@ -36,33 +36,31 @@ html {
   min-width: 100%;
   min-height: 100%;
   height: 100%;
+  cursor: url("/assets/images/cursors/macos/default.svg"), default;
 }
 
 
 body {
-  cursor: none;
   background: black;
   color: white;
   font-family: "Lato", sans-serif;
   width: 100%;
   min-width: 100%;
-  min-height: 100%;
-  height: 100%;
-  margin-top: 64px;
-
-
-  cursor: url("/assets/images/cursors/macos/default.svg"), default;
- 
- 
+  margin-top: 72px;
 }
 
 .navbar {
   width: 100%;
   height: 100%;
   border-radius: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
   border: 1px solid #505050;
-  background: radial-gradient(29.99% 192.19% at 50% 50%, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.05) 100%);
+  --mouse-x: 50%;
+
+  background: radial-gradient(29.99% 192.19% at var(--mouse-x) 50%, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.05) 100%);
   box-shadow: 0 0 16.5px 1px rgba(255, 255, 255, 0.25) inset;
+  transition: 225ms;
   backdrop-filter: blur(12px);
 }
 
