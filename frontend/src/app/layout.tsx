@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import "./globals.css"
 
 
-import {Lato} from "next/font/google";
+import {Inter} from "next/font/google";
 import localFont from "next/font/local";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const gg_sans = localFont({
   src: [
@@ -32,15 +33,15 @@ const gg_sans = localFont({
   variable: "--font-ggsans",
 });
 
-const lato = Lato({
+const inter = Inter({
   subsets: ["latin"],
-  variable: "--font-lato",
-  weight: ["100", "300", "400", "700", "900"],
+  variable: "--font-inter",
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
 export const metadata: Metadata = {
-  title: "al_ex427's page",
-  description: "alex's site"
+  title: "al_ex427",
+  description: "my super cool website"
 };
 
 export default function RootLayout({
@@ -52,11 +53,9 @@ export default function RootLayout({
     <html lang="en">
       
       <body
-        className={`${gg_sans.variable} ${lato.variable} antialiased`}
+        className={`${inter.variable} ${gg_sans.variable} antialiased`}
       >
-          <Navbar/> 
           {children}
-       
         
       </body>
     </html>

@@ -3,9 +3,7 @@
 export default function Home() {
   return (
     <>
-    <div className="page">
-      <h1>i make ui</h1>
-    </div>
+      <h1 className="text-7xl font-bold text-center h-25">Welcome to my website</h1>
 
     </>
   );
