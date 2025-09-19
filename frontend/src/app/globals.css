@@ -69,12 +69,7 @@ body {
   color: var(--color-typography-primary-dark);
 }
 
-@media (prefers-color-scheme: light) {
-  body {
-    background-image: url("/assets/images/backgrounds/space002_nodeco@white.png") ;
-    color: var(--color-typography-primary-light);
-  }
-}
+
 
 
 button:hover, a:hover{
@@ -82,18 +77,32 @@ button:hover, a:hover{
 }
 
 .page {
+  padding-top: 76px;
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: top;
+  place-items: center;
+  flex-direction: column;
+  gap: 8px;
   text-align: center;
+
 }
 
 .navbar {
-  position: relative;
+  top: 0px;
   border-width: 1px;
   border-radius: 12px;
-  -webkit-backdrop-filter: blur(8px);
-  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4 px);
 
+}
+
+
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-image: url("/assets/images/backgrounds/space002_nodeco@white.png") ;
+    color: var(--color-typography-primary-light);
+  }
 }
