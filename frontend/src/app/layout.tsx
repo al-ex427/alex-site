@@ -54,7 +54,8 @@ export default function RootLayout({
       
       <body
         className={`${inter.variable} ${gg_sans.variable} antialiased`}
-      >
+      >   
+          <Navbar/>
           {children}
         
       </body>
