@@ -1,0 +1,23 @@
+---
+import "../styles/global.css";
+import "@fontsource-variable/inter";
+import Navbar from '../components/Navbar.astro';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+
+		<title>alex's site</title>
+		
+	</head>
+	<body>
+		
+		<Navbar/>
+		<slot />
+	</body>
+</html>
+
