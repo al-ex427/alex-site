@@ -56,7 +56,7 @@ body {
     overflow: overlay;
 }
 
-button {
+.button-primary {
     background:  linear-gradient(to bottom, rgb(from var(--color-primary-light) r g b / 75%), rgb(from var(--color-secondary-light) r g b / 50%)); /*      */
     border-color: rgb(from var(--color-primary-outline-light) r g b / 50%);
     transition: 225ms;
@@ -71,11 +71,11 @@ button {
 
     font-family: "Inter Variable", sans-serif;
 
-
-
+    -webkit-user-select: none;
+    user-select: none;
 }
 
-button:hover {
+.button-primary:hover {
     background:  linear-gradient(to bottom, rgb(from var(--color-primary-light) r g b / 100%), rgb(from var(--color-secondary-light) r g b / 75%)); /*      */
     border-color: rgb(from var(--color-primary-outline-light) r g b / 75%);
     transform: scale(1.1);
@@ -92,11 +92,11 @@ button:hover {
         color: var(--color-typography-primary-dark);
     }
 
-    button {
+    .button-primary {
         background:  linear-gradient(to bottom, rgb(from var(--color-primary-dark) r g b / 75%), rgb(from var(--color-secondary-dark) r g b / 50%)); /*      */
         border-color: rgb(from var(--color-primary-outline-dark) r g b / 50%);
     }
-    button:hover {
+    .button-primary:hover {
         background:  linear-gradient(to bottom, rgb(from var(--color-primary-dark) r g b / 100%), rgb(from var(--color-secondary-dark) r g b / 75%)); /*      */
         border-color: rgb(from var(--color-primary-outline-dark) r g b / 75%);     
     }

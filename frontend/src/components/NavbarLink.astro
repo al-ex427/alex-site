@@ -1,0 +1,11 @@
+---
+const { redirectTarget, title} = Astro.props;
+---
+
+    <a href={redirectTarget} class="flex justify-center items-center 
+        px-[20px] h-full rounded-[6px] transition-[125ms] origin-center
+        hover:font-semibold hover:bg-secondary-light/50 dark:hover:bg-secondary-dark/75">
+        <span class="select-none text-center text-[20px]">{title}</span>
+
+</a>
+
