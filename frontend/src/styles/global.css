@@ -57,6 +57,7 @@ body {
 }
 
 .button-primary {
+    display: flex;
     background:  linear-gradient(to bottom, rgb(from var(--color-primary-light) r g b / 75%), rgb(from var(--color-secondary-light) r g b / 50%)); /*      */
     border-color: rgb(from var(--color-primary-outline-light) r g b / 50%);
     transition: 225ms;
@@ -68,7 +69,9 @@ body {
     border-width: 2px;
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
-
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
     font-family: "Inter Variable", sans-serif;
 
     -webkit-user-select: none;

@@ -13,5 +13,8 @@ export default defineConfig({
   redirects: {
     "/aboutme": "/about",
     "/aboutus": "/about",
+    
+    "/commissions": "/commisions",
+    "/comms": "/commisions"
   }
 });
